@@ -1,0 +1,23 @@
+{
+  "name": "eslint-config",
+  "version": "0.0.0",
+  "description": "eslint config",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "eslint",
+    "eslint config"
+  ],
+  "packageManager": "pnpm@7.25.0",
+  "author": "NanoMu<g@harogo.fun> & Harogo<harogo@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.32.0",
+    "eslint-config-base": "workspace:*"
+  },
+  "volta": {
+    "node": "16.19.0"
+  }
+}
